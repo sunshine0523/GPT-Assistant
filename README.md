@@ -2,9 +2,21 @@
 
 GPT助手是一款将GPT融入Android设备操作的软件。与其他手机助手一致，你可以通过语音输入一段指令，GPT助手即可去执行相应的任务。
 
+## 截图
+
+# <img title="" src="./raw/screenshot1.jpg" alt="" width="150"> <img title="" src="./raw/screenshot2.jpg" alt="" width="150"> <img title="" src="./raw/screenshot3.jpg" alt="" width="150">
+
 ## 😎功能演示
 
+https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/auto_wechat.mp4
 
+https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/schedule.mp4
+
+https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/summarize.mp4
+
+https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/knowledge_qa.mp4
+
+https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/open_app.mp4
 
 ## ✅目前支持的功能
 
