@@ -2,21 +2,21 @@
 
 GPT助手是一款将GPT融入Android设备操作的软件。与其他手机助手一致，你可以通过语音输入一段指令，GPT助手即可去执行相应的任务。
 
-## 截图
+## 🖼️截图
 
 # <img title="" src="./raw/screenshot1.jpg" alt="" width="150"> <img title="" src="./raw/screenshot2.jpg" alt="" width="150"> <img title="" src="./raw/screenshot3.jpg" alt="" width="150">
 
 ## 😎功能演示
 
-https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/auto_wechat.mp4
+https://user-images.githubusercontent.com/47859250/234208243-a1c783d3-191c-4f3b-a1ee-e9c07068b8d9.mp4
 
-https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/schedule.mp4
+https://user-images.githubusercontent.com/47859250/234208820-2487735a-b7e9-426a-bad9-aa8f4ab32571.mp4
 
-https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/summarize.mp4
+https://user-images.githubusercontent.com/47859250/234209152-2575232f-7541-4c79-83ab-b7829f7e352a.mp4
 
-https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/knowledge_qa.mp4
+https://user-images.githubusercontent.com/47859250/234209197-0447a516-bc1f-424e-a6cb-25b82647ef8f.mp4
 
-https://github.com/sunshine0523/GPT-Assistant/raw/master/raw/open_app.mp4
+https://user-images.githubusercontent.com/47859250/234209451-2b1a29d2-47cf-440e-8844-92d9390754af.mp4
 
 ## ✅目前支持的功能
 
