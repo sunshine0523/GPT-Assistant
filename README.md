@@ -66,4 +66,4 @@ https://user-images.githubusercontent.com/47859250/234209451-2b1a29d2-47cf-440e-
 
 ## 许可证
 
-GPT助手 根据GNU通用公共许可证v3（GPL-3）（http://www.gnu.org/copyleft/gpl.html）进行许可。
+GPT助手 根据GNU通用公共许可证v3（GPL-3）（http://www.gnu.org/copyleft/gpl.html) 进行许可。
