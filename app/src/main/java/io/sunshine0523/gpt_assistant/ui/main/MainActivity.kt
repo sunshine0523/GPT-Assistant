@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                         dataBinding.viewPager.currentItem = 0
                     }
                     else -> {
-                        dataBinding.viewPager.currentItem = 2
+                        dataBinding.viewPager.currentItem = 1
                     }
                 }
                 true
