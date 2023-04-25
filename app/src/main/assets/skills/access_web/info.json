@@ -1,0 +1,22 @@
+{
+  "name": "Access Web",
+  "forLLM": true,
+  "description": "Accessing a webpage to obtain its content. This skill only needs to be called when a URL address is found in user input",
+  "params": {
+    "webUrl": "{value}"
+  },
+  "autoProcess": true,
+  "result": {
+    "webContent": ""
+  },
+  "step": [
+    {
+      "type": 1,
+      "name": "InternetOperation",
+      "functionName": "accessWeb",
+      "params": {
+        "webUrl": "{webUrl}"
+      }
+    }
+  ]
+}

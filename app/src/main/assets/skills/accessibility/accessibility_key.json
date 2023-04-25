@@ -1,0 +1,19 @@
+{
+  "name": "Accessibility Key",
+  "forLLM": false,
+  "description": "Use the accessibility feature of the Android system for click phone`s key",
+  "params": {
+    "key": "{value}"
+  },
+  "result": {},
+  "step": [
+    {
+      "type": 1,
+      "name": "AccessibilityOperation",
+      "functionName": "key",
+      "params": {
+        "key": "{key}"
+      }
+    }
+  ]
+}

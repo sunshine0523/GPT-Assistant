@@ -1,0 +1,85 @@
+{
+  "name": "Wechat Send Message",
+  "forLLM": true,
+  "description": "Automatically help users send WeChat messages to a contact person",
+  "params": {
+    "targetContactPerson": "{value}",
+    "messageContent": "{value}"
+  },
+  "result": {},
+  "step": [
+    {
+      "type": 0,
+      "name": "Open App",
+      "functionName": "",
+      "params": {
+        "packageName": "com.tencent.mm"
+      }
+    },
+    {
+      "type": 1,
+      "name": "AccessibilityOperation",
+      "functionName": "waitAppToForeground",
+      "params": {
+        "packageName": "com.tencent.mm"
+      }
+    },
+    {
+      "type": 0,
+      "name": "Accessibility Click",
+      "functionName": "",
+      "params": {
+        "resourceId": "com.tencent.mm:id/j5t",
+        "text": "",
+        "contentDescription": "",
+        "className": ""
+      }
+    },
+    {
+      "type": 0,
+      "name": "Accessibility Paste",
+      "functionName": "",
+      "params": {
+        "resourceId": "com.tencent.mm:id/cd7",
+        "text": "搜索",
+        "contentDescription": "",
+        "className": "",
+        "pasteText": "{targetContactPerson}"
+      }
+    },
+    {
+      "type": 0,
+      "name": "Accessibility Click",
+      "functionName": "",
+      "params": {
+        "resourceId": "com.tencent.mm:id/kpm",
+        "text": "{targetContactPerson}",
+        "contentDescription": "",
+        "className": ""
+      }
+    },
+    {
+      "type": 0,
+      "name": "Accessibility Paste",
+      "functionName": "",
+      "params": {
+        "resourceId": "com.tencent.mm:id/b4a",
+        "text": "",
+        "contentDescription": "",
+        "className": "android.widget.EditText",
+        "pasteText": "{messageContent}"
+      }
+    },
+    {
+      "type": 0,
+      "name": "Accessibility Click",
+      "functionName": "",
+      "params": {
+        "resourceId": "com.tencent.mm:id/b8k",
+        "text": "发送",
+        "contentDescription": "",
+        "className": ""
+      }
+    }
+  ]
+}

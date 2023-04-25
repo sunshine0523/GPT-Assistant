@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">GPT助手</string>
+    <string name="waiting">请等待</string>
+    <string name="done">完成</string>
+    <string name="tip">提示</string>
+    <string name="loading">请稍后</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="setup_title">GPT初始化</string>
+    <string name="setup_use_openai">使用OpenAI</string>
+    <string name="setup_use_azure">使用Azure OpenAI</string>
+    <string name="setup_speech">配置Azure语音服务Key</string>
+    <string name="setup_input_openai_key">输入OpenAI或Azure OpenAI的密钥</string>
+    <string name="setup_input_model">输入模型或部署类型</string>
+    <string name="setup_input_endpoint">输入Azure OpenAI基址</string>
+    <string name="setup_remember_info">记住以上信息</string>
+    <string name="openai_info">请输入OpenAI或者Azure OpenAI的OpenAI访问节点以访问OpenAI服务</string>
+
+    <string name="setup_input_speech_key">请输入Azure语音服务Key</string>
+    <string name="setup_input_speech_region">请输入Azure语音服务地区，例如:eastus</string>
+    <string name="setup_input_speech_language">请输入要识别的语言，例如:zh-CN</string>
+    <string name="speech_info">如果要使用语音转文字服务，请输入Azure语音服务Key。您可以在 https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service 获得更多信息</string>
+
+    <string name="access_openai_failed">访问OpenAI或Azure OpenAI失败</string>
+    <string name="open_accessibility_service_toast">请开启GPT助手的无障碍服务</string>
+    <string name="require_accessibility">GPT助手需要无障碍服务以触控屏幕。点击授权按钮前往设置界面授权GPT助手的无障碍服务权限</string>
+    <string name="require_overlay">GPT助手需要显示悬浮窗权限以展示助手界面，点击授权按钮前往设置界面授权</string>
+    <string name="need_permissions">GPT-Assistant需要指定权限才可运行</string>
+    <string name="authorisation">授权</string>
+
+    <string name="accessibility_service_label">GPT助手服务</string>
+    <string name="accessibility_service_description">GPT助手无障碍服务可以操控您的设备，并且获得到您的设备屏幕上的一些信息。GPT助手使用这些功能以自动化地完成某些过程。</string>
+
+    <string name="menu_skills">技能</string>
+    <string name="menu_about">关于</string>
+    <string name="start_assistant">助手</string>
+
+    <string name="skill_detail_info">详细信息</string>
+
+    <string name="assistant_input_message">输入信息</string>
+    <string name="send">发送</string>
+    <string name="exec_skill">执行</string>
+    <string name="executing_skill">执行中</string>
+
+    <string name="please_input_some_message">请输入一些信息</string>
+
+    <string name="exec_fail_1">执行</string>
+    <string name="exec_fail_2">失败</string>
+
+    <string name="click_to_speech">点击开始讲话</string>
+    <string name="stop_speeching">结束讲话</string>
+
+    <string name="edit_text">编辑文本</string>
+    <string name="floating_view_label">启动助手</string>
+    <string name="azure_speech_init_fail">Azure语音服务初始化失败，您无法使用语音转文字服务</string>
+
+    <string name="skill_name"><b>技巧名称：</b></string>
+    <string name="skill_description"><b>描述：</b></string>
+    <string name="skill_params"><b>参数：</b></string>
+    <string name="skill_step"><b>步骤：</b></string>
+    <string name="step_name"><b>\t步骤名称：</b></string>
+    <string name="step_type"><b>\t步骤类型：</b></string>
+    <string name="step_invoke_func"><b>\t调用函数：</b></string>
+    <string name="step_params"><b>\t所需参数：</b></string>
+    <string name="result">执行结果：</string>
+
+    <string name="summarize_text_prompt">请用少量的文字总结下列文字：</string>
+
+    <string name="calendar_list_info">我为您找到了以下日程：</string>
+</resources>

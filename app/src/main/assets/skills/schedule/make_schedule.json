@@ -1,0 +1,22 @@
+{
+  "name": "Make Schedule",
+  "forLLM": true,
+  "description": "Make a schedule to calendar",
+  "params": {
+    "date": "yyyy-MM-dd hh:mm",
+    "task": "{value}"
+  },
+  "autoProcess": true,
+  "result": {},
+  "step": [
+    {
+      "type": 1,
+      "name": "ScheduleOperation",
+      "functionName": "makeSchedule",
+      "params": {
+        "date": "{date}",
+        "task": "{task}"
+      }
+    }
+  ]
+}

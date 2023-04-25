@@ -1,0 +1,27 @@
+{
+  "name": "Accessibility Paste",
+  "forLLM": false,
+  "description": "Use the accessibility feature of the Android system to paste text to target EditView",
+  "params": {
+    "resourceId": "{value}",
+    "text": "{value}",
+    "contentDescription": "{value}",
+    "className": "{value}",
+    "pasteText": "{value}"
+  },
+  "result": {},
+  "step": [
+    {
+      "type": 1,
+      "name": "AccessibilityOperation",
+      "functionName": "paste",
+      "params": {
+        "resourceId": "{resourceId}",
+        "text": "{text}",
+        "contentDescription": "{contentDescription}",
+        "className": "{className}",
+        "pasteText": "{pasteText}"
+      }
+    }
+  ]
+}

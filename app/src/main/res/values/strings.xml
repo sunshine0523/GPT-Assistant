@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">GPT-Assistant</string>
+    <string name="waiting">Waiting</string>
+    <string name="ok">OK</string>
+    <string name="tip">Tips</string>
+    <string name="done">Done</string>
+    <string name="loading">Loading</string>
+    <string name="cancel">Cancel</string>
+
+    <!--accessibility_service_config-->
+    <string name="accessibility_service_label">GPTAssistant Service</string>
+    <string name="accessibility_service_description">"GPTAssistant Accessibility Service can make GPTAssistant touch your phone`s screen and get some information on your phone`s screen. GPTAssistant use these function for auto process some work."</string>
+
+    <!--fragment_setup_openai-->
+    <string name="setup_title">GPT Setup</string>
+    <string name="setup_use_openai">Use OpenAI</string>
+    <string name="setup_use_azure">Use Azure OpenAI</string>
+    <string name="setup_speech">配置Azure语音服务Key</string>
+    <string name="setup_input_openai_key">Input OpenAI or Azure OpenAI key</string>
+    <string name="setup_input_model">Input Model or Deployment Name</string>
+    <string name="setup_input_endpoint">Input Azure Endpoint</string>
+    <string name="setup_remember_info">Remember Info</string>
+    <string name="openai_info">Please input OpenAI or Azure OpenAI info to access OpenAI service</string>
+
+    <!--fragment_setup_speech-->
+    <string name="setup_input_speech_key">Input Azure Speech Service Key</string>
+    <string name="setup_input_speech_region">Input Azure Speech Service Region. e.g., eastus</string>
+    <string name="setup_input_speech_language">Input the language to be recognized. e.g., zh-CN</string>
+    <string name="speech_info">If you want to use speech to text service, please enter Azure Speech Service Key. You can get more information at https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service</string>
+
+    <!--SetupFragment-->
+    <string name="access_openai_failed">Access OpenAI or Azure OpenAI failed</string>
+    <string name="open_accessibility_service_toast">Please open GPTAssistant`s Accessibility Service</string>
+    <string name="require_accessibility">GPT-Assistant requires accessibility services to touch the screen. Click the authorization button to go to the settings interface to authorize the accessibility service permissions of GPT-Assistant</string>
+    <string name="require_overlay">GPT-Assistant needs to draw overlay permission to display the assistant interface. Click the authorization button to go to the settings interface for authorization</string>
+    <string name="need_permissions">GPT Assistant requires permissions to run</string>
+    <string name="authorisation">Authorisation</string>
+
+    <!--bottom_nav_menu-->
+    <string name="menu_skills">Skills</string>
+    <string name="menu_about">About</string>
+    <string name="start_assistant">Assistant</string>
+
+    <!--SkillFragment-->
+    <string name="skill_detail_info">Skill`s Detail Info</string>
+
+    <!--fragment_assistant-->
+    <string name="assistant_input_message">Input Message</string>
+    <string name="send">Send</string>
+    <string name="exec_skill">Exec</string>
+    <string name="executing_skill">Executing</string>
+
+    <!--AssistantFragment-->
+    <string name="please_input_some_message">Please input some message</string>
+    <string name="exec_fail_1">Exec</string>
+    <string name="exec_fail_2">Failed</string>
+
+    <!--activity_floating-->
+    <string name="click_to_speech">Click to Speech</string>
+    <string name="stop_speeching">Finish Speeching</string>
+
+    <!--FloatingActivity-->
+    <string name="edit_text">Edit Text</string>
+    <string name="floating_view_label">Open GPT-Assistant</string>
+    <string name="azure_speech_init_fail">Azure Speech Service initialization failed. You cannot use speech to text service</string>
+
+    <!--FloatingRecyclerViewAdapter-->
+    <string name="skill_name"><b>Skill Name:</b></string>
+    <string name="skill_description"><b>Description:</b></string>
+    <string name="skill_params"><b>Params:</b></string>
+    <string name="skill_step"><b>Step:</b></string>
+    <string name="step_name"><b>\tStep Name:</b></string>
+    <string name="step_type"><b>\tStep Type:</b></string>
+    <string name="step_invoke_func"><b>\tStep Invoke Function:</b></string>
+    <string name="step_params"><b>\tStep Params:</b></string>
+    <string name="result">Result:</string>
+
+    <!--LLMOperation-->
+    <string name="summarize_text_prompt">Using few words to summarize blow text:</string>
+
+    <!--ScheduleOperation-->
+    <string name="calendar_list_info">I have found the following schedule for you:</string>
+
+</resources>

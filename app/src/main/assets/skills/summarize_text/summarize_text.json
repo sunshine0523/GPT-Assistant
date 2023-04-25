@@ -1,0 +1,22 @@
+{
+  "name": "Summarize Text",
+  "forLLM": true,
+  "description": "Summarize text",
+  "params": {
+    "text": "{value}"
+  },
+  "autoProcess": true,
+  "result": {
+    "summarizedText": ""
+  },
+  "step": [
+    {
+      "type": 1,
+      "name": "LLMOperation",
+      "functionName": "summarizeText",
+      "params": {
+        "text": "{text}"
+      }
+    }
+  ]
+}

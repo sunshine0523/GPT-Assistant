@@ -1,0 +1,24 @@
+{
+  "name": "List Schedule",
+  "forLLM": true,
+  "description": "List all schedule in calendar",
+  "params": {
+    "startDate": "yyyy-MM-dd hh:mm",
+    "endDate": "yyyy-MM-dd hh:mm"
+  },
+  "autoProcess": true,
+  "result": {
+    "scheduleList": ""
+  },
+  "step": [
+    {
+      "type": 1,
+      "name": "ScheduleOperation",
+      "functionName": "listSchedule",
+      "params": {
+        "startDate": "{startDate}",
+        "endDate": "{endDate}"
+      }
+    }
+  ]
+}

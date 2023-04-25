@@ -1,0 +1,22 @@
+{
+  "name": "Knowledge QA",
+  "forLLM": true,
+  "description": "Answer user`s question",
+  "params": {
+    "question": "{value}"
+  },
+  "autoProcess": true,
+  "result": {
+    "answer": ""
+  },
+  "step": [
+    {
+      "type": 1,
+      "name": "LLMOperation",
+      "functionName": "knowledgeQA",
+      "params": {
+        "text": "{question}"
+      }
+    }
+  ]
+}

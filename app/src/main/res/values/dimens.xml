@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_margin_24">24dp</dimen>
+    <dimen name="view_margin_16">16dp</dimen>
+
+    <dimen name="floating_text_max_height">160dp</dimen>
+</resources>

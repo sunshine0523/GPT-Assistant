@@ -1,0 +1,20 @@
+{
+  "name": "Open App",
+  "forLLM": true,
+  "description": "Open a application",
+  "params": {
+    "packageName": "{value}"
+  },
+  "autoProcess": true,
+  "result": {},
+  "step": [
+    {
+      "type": 1,
+      "name": "OpenAppOperation",
+      "functionName": "startActivity",
+      "params": {
+        "packageName": "{packageName}"
+      }
+    }
+  ]
+}
