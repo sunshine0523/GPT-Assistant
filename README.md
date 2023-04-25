@@ -2,6 +2,8 @@
 
 GPT助手是一款将GPT融入Android设备操作的软件。与其他手机助手一致，你可以通过语音输入一段指令，GPT助手即可去执行相应的任务。
 
+<a href="./README_en.md">Readme in English</a>
+
 ## 🖼️截图
 
 # <img title="" src="./raw/screenshot1.jpg" alt="" width="150"> <img title="" src="./raw/screenshot2.jpg" alt="" width="150"> <img title="" src="./raw/screenshot3.jpg" alt="" width="150">
@@ -61,3 +63,7 @@ https://user-images.githubusercontent.com/47859250/234209451-2b1a29d2-47cf-440e-
 - [Jsoup:](https://github.com/jhy/jsoup) The Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety
 
 - [PermissionX:](https://github.com/guolindev/PermissionX) An open source Android library that makes handling runtime permissions extremely easy
+
+## 许可证
+
+GPT助手 根据GNU通用公共许可证v3（GPL-3）（http://www.gnu.org/copyleft/gpl.html）进行许可。
