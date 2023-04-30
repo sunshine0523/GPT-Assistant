@@ -8,6 +8,16 @@ GPT助手是一款将GPT融入Android设备操作的软件。与其他手机助�
 
 # <img title="" src="./raw/screenshot1.jpg" alt="" width="150"> <img title="" src="./raw/screenshot2.jpg" alt="" width="150"> <img title="" src="./raw/screenshot3.jpg" alt="" width="150">
 
+## TODO
+
+- 目前对触控部分不是很完美，正思考如何更加优雅地实现
+
+- 支持导入自定义的技能
+
+- 项目的某些实现需要优化
+
+- 对于微信发消息功能，局限性仍然比较大，正思考更加通用的方式
+
 ## 😎功能演示
 
 https://user-images.githubusercontent.com/47859250/234208243-a1c783d3-191c-4f3b-a1ee-e9c07068b8d9.mp4
@@ -66,4 +76,4 @@ https://user-images.githubusercontent.com/47859250/234209451-2b1a29d2-47cf-440e-
 
 ## 许可证
 
-GPT助手 根据GNU通用公共许可证v3（GPL-3）（http://www.gnu.org/copyleft/gpl.html）进行许可。
+GPT助手 根据GNU通用公共许可证v3（GPL-3）（http://www.gnu.org/copyleft/gpl.html) 进行许可。
