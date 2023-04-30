@@ -25,14 +25,10 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import com.google.gson.Gson
 import com.microsoft.cognitiveservices.speech.SpeechConfig
-import com.microsoft.cognitiveservices.speech.SpeechRecognitionEventArgs
 import com.microsoft.cognitiveservices.speech.SpeechRecognizer
 import com.microsoft.cognitiveservices.speech.audio.AudioConfig
-import com.microsoft.cognitiveservices.speech.util.EventHandler
-import com.orhanobut.logger.Logger
 import com.permissionx.guolindev.PermissionX
 import com.theokanning.openai.completion.chat.ChatCompletionRequest
-import com.theokanning.openai.completion.chat.ChatMessage
 import com.theokanning.openai.service.AzureOpenAiService
 import com.theokanning.openai.service.OpenAiService
 import io.sunshine0523.gpt_assistant.Api
@@ -51,9 +47,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 import java.time.Duration
-import java.util.concurrent.ExecutorService
-import java.util.concurrent.Executors
-import java.util.concurrent.Future
 import java.util.regex.Pattern
 
 

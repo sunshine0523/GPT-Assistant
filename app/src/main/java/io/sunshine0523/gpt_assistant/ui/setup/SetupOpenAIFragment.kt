@@ -86,6 +86,7 @@ class SetupOpenAIFragment : Fragment() {
                 } catch (e: Exception) {
                     launch(Dispatchers.Main) {
                         loadingView.dismiss()
+                        e.printStackTrace()
                         Toast.makeText(requireContext(), getString(R.string.access_openai_failed), Toast.LENGTH_SHORT).show()
                     }
                 }
