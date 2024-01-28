@@ -1,5 +1,6 @@
 # <img src="./raw/logo.png" title="" alt="" width="50">GPT助手：让GPT来操作你的手机！
 
+<h2>全新版本正在开发中...敬请期待，后续会同步到dev分支</h2>
 GPT助手是一款将GPT融入Android设备操作的软件。与其他手机助手一致，你可以通过语音输入一段指令，GPT助手即可去执行相应的任务。
 
 <a href="./README_en.md">Readme in English</a>
